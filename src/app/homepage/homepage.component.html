@@ -1,0 +1,30 @@
+<!-- Log In Form -->
+
+<!-- <div class="row">
+  <form class="login">
+    <div class="form-group">
+      <label for="exampleUserName">User Name</label>
+      <input type="email" class="form-control" id="exampleUserName"  placeholder="Enter your username">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputPassword1">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your password">
+    </div>
+    <button type="submit" class="btn btn-primary" (click)="login()">Submit</button>
+  </form>
+</div> -->
+
+
+<div class="example-container">
+    <mat-form-field appearance="outline">
+      <mat-label>User Name</mat-label>
+      <input matInput placeholder="Please enter your username">
+      <mat-hint>Max 10 characters</mat-hint>
+    </mat-form-field>
+    <mat-form-field appearance="outline">
+      <mat-label>Password</mat-label>
+      <input matInput placeholder="Enter your password">
+      <mat-hint>Max 10 characters</mat-hint>
+    </mat-form-field>
+    <button mat-raised-button color="primary" class="submit" (click)="login()">Submit</button>
+  </div>
