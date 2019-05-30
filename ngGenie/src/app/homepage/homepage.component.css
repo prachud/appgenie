@@ -1,0 +1,25 @@
+.row{
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.example-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .example-container {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+
+  .login {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+  
+  .submit{
+      width: 20%;
+  }
